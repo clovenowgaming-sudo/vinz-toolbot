@@ -1,0 +1,32 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081"
+	},
+	"version": "v1.0.0",
+	"id": "clv.tool-bot",
+	"name": "CBot",
+	"developer": "Vinzplaing",
+	"description": "Macro bot (record / replay) dengan TPS custom, practice fix, dan format GDR2.",
+	"settings": {
+		"frame-fix": {
+			"type": "bool",
+			"name": "Frame Fix",
+			"description": "Saat replay, koreksi posisi/rotasi/kecepatan pemain di setiap input supaya macro lebih akurat.",
+			"default": true
+		},
+		"practice-fix": {
+			"type": "bool",
+			"name": "Practice Fix",
+			"description": "Saat respawn dari checkpoint di practice mode, kembalikan posisi, rotasi, dan kecepatan pemain persis seperti saat checkpoint dibuat.",
+			"default": true
+		},
+		"show-status": {
+			"type": "bool",
+			"name": "Tampilkan Status",
+			"description": "Tampilkan teks REC / PLAY dan nomor frame di pojok kiri atas saat bermain.",
+			"default": true
+		}
+	}
+}
