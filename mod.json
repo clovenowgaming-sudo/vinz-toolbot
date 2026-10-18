@@ -6,7 +6,7 @@
 	},
 	"version": "v1.0.0",
 	"id": "clv.tool-bot",
-	"name": "CBot",
+	"name": "Vinz Tool Bot",
 	"developer": "Vinzplaing",
 	"description": "Macro bot (record / replay) dengan TPS custom, practice fix, dan format GDR2.",
 	"settings": {
